@@ -15,6 +15,7 @@ The study aims to validate the three operating regimes of Dropout described in t
 1.  **Early Dropout** (Targeting Underfitting): Active only during the initial phase to reduce gradient variance and align their direction, allowing for better final optimization.
 2.  **Late Dropout** (Targeting Overfitting): Disabled at the start to allow rapid learning, then activated to regularize final convergence.
 3.  **Standard Dropout**: Constant rate throughout training (Baseline).
+4.  **No Dropout**: Control experiment without dropout.
 
 ## 🛠️ Technical Architecture
 
@@ -39,7 +40,7 @@ cd dropoutreducesunderfitting
 pip install tensorflow numpy matplotlib seaborn scikit-learn
 ```
 
-📊 Usage
+## 📊 Usage
 
 The main notebook pipeline.ipynb contains all necessary code. Here is how to run a typical experiment via the pipeline API.
 1. Initialization
@@ -101,14 +102,14 @@ exp.run_dataset_size_comparison(
 )
 ```
 
-📈 Expected Results
+## 📈 Expected Results
 
 According to the paper, you should observe:
 
 - Early Dropout: Higher initial Loss, followed by a sharp drop after the switch_epoch, often reaching a lower minimum than Standard Dropout (reduction of underfitting).
 - Late Dropout: Rapid rise in accuracy at the start (potential overfitting), then stabilized by the activation of dropout.
 
-📝 Authors
+## 📝 Authors
 
 - Arthur Danjou
 - Philippine Quellec
