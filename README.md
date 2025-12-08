@@ -114,10 +114,10 @@ According to the paper, you should observe:
 ## 📝 Authors
 
 - Arthur Danjou
+- Alexis Mathieu
+- Axelle Meric
 - Philippine Quellec
 - Moritz Von Siemens
-- Axelle Meric
-- Alexis Mathieu
 
 M.Sc. Statistical and Financial Engineering (ISF) - Data Science Track at Université Paris-Dauphine PSL
 
