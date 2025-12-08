@@ -35,7 +35,7 @@ git clone [https://github.com/arthurdanjou/dropoutreducesunderfitting.git](https
 cd dropoutreducesunderfitting
 ```
 
-# Install dependencies
+##  Install dependencies
 ```bash
 pip install tensorflow numpy matplotlib seaborn scikit-learn
 ```
