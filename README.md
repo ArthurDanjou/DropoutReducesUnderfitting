@@ -6,6 +6,8 @@
 
 > **Study and reproduction of the paper:** Liu, Z., et al. (2023). *Dropout Reduces Underfitting*. arXiv:2303.01500.
 
+The paper is available at: [https://arxiv.org/abs/2303.01500](https://arxiv.org/abs/2303.01500)
+
 This repository contains a robust and modular implementation in **TensorFlow/Keras** of **Early Dropout** and **Late Dropout** strategies. The goal is to verify the hypothesis that dropout, traditionally used to reduce overfitting, can also combat underfitting when applied solely during the initial training phase.
 
 ## 🎯 Scientific Objectives
