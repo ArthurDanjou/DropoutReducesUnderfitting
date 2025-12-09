@@ -29,6 +29,23 @@ Unlike naive Keras callback implementations, this project uses a **dynamic appro
 * **`DropoutScheduler`**: A Keras `Callback` that drives the rate variable based on the current epoch and the chosen strategy (`early`, `late`, `standard`).
 * **`ExperimentPipeline`**: An orchestrator class that handles data loading (MNIST, CIFAR-10, Fashion MNIST), model creation (Dense or CNN), and execution of comparative benchmarks.
 
+## File Structure
+
+```
+.
+├── README.md                         # This documentation file
+├── Dropout reduces underfitting.pdf  # Original research paper
+├── pipeline.py                       # Main experiment pipeline
+├── pipeline.ipynb                    # Jupyter notebook for experiments
+├── pipeline_mnist.ipynb              # Jupyter notebook for MNIST experiments
+├── pipeline_cifar10.ipynb            # Jupyter notebook for CIFAR-10 experiments
+├── pipeline_cifar100.ipynb           # Jupyter notebook for CIFAR-100 experiments
+├── pipeline_fashion_mnist.ipynb      # Jupyter notebook for Fashion MNIST experiments
+├── requirements.txt                  # Python dependencies
+├── .python-version                   # Python version specification
+└── uv.lock                           # Dependency lock file
+```
+
 ## 🚀 Installation
 
 ```bash
