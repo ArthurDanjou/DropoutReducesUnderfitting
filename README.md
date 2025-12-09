@@ -130,12 +130,11 @@ According to the paper, you should observe:
 
 ## 📝 Authors
 
-- Arthur Danjou
-- Alexis Mathieu
-- Axelle Meric
-- Philippine Quellec
-- Moritz Von Siemens
-
+- [Arthur Danjou](https://github.com/ArthurDanjou)
+- [Alexis Mathieu](https://github.com/Alex6535)
+- [Axelle Meric](https://github.com/AxelleMeric)
+- [Philippine Quellec](https://github.com/Philippine35890)
+- [Moritz Von Siemens](https://github.com/MoritzSiem)
 M.Sc. Statistical and Financial Engineering (ISF) - Data Science Track at Université Paris-Dauphine PSL
 
 Based on the work of Liu, Z., et al. (2023). Dropout Reduces Underfitting.
