@@ -50,7 +50,7 @@ Unlike naive Keras callback implementations, this project uses a **dynamic appro
 
 ```bash
 # Clone the repository
-git clone [https://github.com/arthurdanjou/dropoutreducesunderfitting.git](https://github.com/arthurdanjou/dropoutreducesunderfitting.git)
+git clone https://github.com/arthurdanjou/dropoutreducesunderfitting.git
 cd dropoutreducesunderfitting
 ```
 
